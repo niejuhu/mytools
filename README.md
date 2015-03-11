@@ -9,3 +9,7 @@ Used to pack/unpack android boot/recovery image. I use them as follow:
 * Change something like property in the ramdisk
 * Repack boot.img
 * Flash new boot.img back to android phone
+
+## Unpack pseudo crypt zip
+
+Used to unpack pseudo crypt zip/apk file.

@@ -17,3 +17,8 @@ Used to unpack pseudo crypt zip/apk file.
 ## android/verify\_ota.py
 
 Used to verify an ota file against a certificate file in x509 format.
+
+## gerrit.py
+
+A gerrit helper program. Used to add reviewer, review, verify, cherry-pick and
+generate review url for batch of changes.

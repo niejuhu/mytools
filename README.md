@@ -10,15 +10,18 @@ Used to pack/unpack android boot/recovery image. I use them as follow:
 * Repack boot.img
 * Flash new boot.img back to android phone
 
-## unpack.py
+## android/kernel/
 
-Used to unpack pseudo crypt zip/apk file.
+Used to decompress kernel and print kernel symbols like /proc/kallsyms
 
 ## android/verify\_ota.py
 
 Used to verify an ota file against a certificate file in x509 format.
 
-## gerrit.py
+## unpack.py
 
-A gerrit helper program. Used to add reviewer, review, verify, cherry-pick and
-generate review url for batch of changes.
+Used to unpack pseudo crypt zip/apk file.
+
+## ccodeslice
+
+C code slice

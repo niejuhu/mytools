@@ -18,6 +18,10 @@ Used to decompress kernel and print kernel symbols like /proc/kallsyms
 
 Used to verify an ota file against a certificate file in x509 format.
 
+## android/parse\_android\_partition.c
+
+Used to parse gpt of android disk.
+
 ## unpack.py
 
 Used to unpack pseudo crypt zip/apk file.
